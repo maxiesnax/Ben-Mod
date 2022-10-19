@@ -1,4 +1,4 @@
-# Ben Mod, a mod for my friend Ben :)
+# Ben Mod, a mod of my friend Ben :)
  This mod will introduce new armor, tools and buffs that will be useful when fighting a new mob boss, Ben. 
  <br>
  I am however having difficulties in the following departments:
