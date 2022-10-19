@@ -1,5 +1,6 @@
 {
-	"item.benmod.ben_egg": "Ben Summoner Egg",
 	"itemGroup.benmod": "Ben Tab",
-	"block.benmod.ben_block": "Ben Block"
+	"block.benmod.ben_block": "Ben Egg",
+	"item.benmod.amethyst_nugget": "Amethyst Nugget",
+	"item.benmod.amethyst_ingot": "Amethyst Ingot"
 	}

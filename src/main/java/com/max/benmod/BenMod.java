@@ -2,6 +2,7 @@ package com.max.benmod;
 
 import com.max.benmod.init.Blockinit;
 import com.max.benmod.init.Iteminit;
+import com.max.benmod.recipe.ModRecipes;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -21,7 +22,7 @@ public class BenMod {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack makeIcon() {
-			return new ItemStack(Iteminit.BEN_EGG.get());
+			return new ItemStack(Iteminit.AMETHYST_NUGGET.get());
 		}
 	};
 
@@ -30,6 +31,7 @@ public class BenMod {
 		
 		Iteminit.ITEMS.register(bus);
 		Blockinit.BLOCKS.register(bus);
+		ModRecipes.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
